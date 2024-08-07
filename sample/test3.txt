@@ -1,0 +1,67 @@
+class A begin
+    field double[] x
+    protected field string y, z
+end
+
+public class B inherits A begin
+    field double[] x
+    protected field string y, z
+    private func calculateSum(x: double, y: double) returns double begin
+        a = test[d]
+        if (y > 8) begin
+            var testif = 9
+        end
+        sum = x + y
+        var a = new_function(10)
+        return sum
+    end
+    private func calculateSum(x: double, y: double) returns double begin
+            if (y > 8) begin
+                var testif = 9
+            end
+            sum = x + y
+            var a = new_function(10)
+            return sum
+        end
+    protected func greet(name: string) returns string begin
+        var a = calculateSum(2,3)
+        return "Hello, " + name
+    end
+end
+
+MAIN class Main begin
+    field double[] x
+    protected field string y, z
+    func main() returns double begin
+        if (result > 100) begin
+            if(result > 10) begin
+              sout("Result is if")
+            end
+            sout("Result is if")
+        end
+        elif(test > 2) begin
+            var testelif = 2
+            sout("Result is elif")
+        end
+        while (result < 100) begin
+            var test = 1
+            result++
+            break
+            sum = x + y
+            continue
+        end
+    end
+end
+public class C inherits A begin
+    field double[] x
+    protected field string y, z
+    private func calculateSum(x: double, y: double) returns double begin
+        sum = x + y
+        var a = new_function(10)
+        return sum
+    end
+    protected func greet(name: string) returns string begin
+        return "Hello, " + name
+    end
+end
+

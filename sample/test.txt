@@ -1,0 +1,49 @@
+MAIN class Sample begin
+    private func a(x: bool[], y: string, z: double) returns string begin
+        var b = "Result: "
+        var c = y
+        if (x[0])
+            c = c + " is true"
+        else
+            c = c + " is false"
+        var d = ", value: " + z.toString()
+        return b + c + d
+    end
+
+    func main() returns int begin
+        var a = 2.0
+        var b = 1
+        var s2 = new string[2]
+        var ss = "a"
+        s1[0] = ss
+        while (i < n) begin
+            var x = i + 1
+            sout("Iteration: " + i)
+        end
+        if (a == b) begin
+            sout("True")
+        end
+        else begin
+            sout("False")
+        end
+        return 1.0
+    end
+
+        func main() returns double begin
+
+            while (a > 0) begin
+                if (a == 2) begin
+                    a = b * 10
+                    break
+                end
+                elif (a == 3) begin
+                    continue
+                end
+                else begin
+                    a--
+                end
+            end
+            return 1.0
+        end
+
+end
